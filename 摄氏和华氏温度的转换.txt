@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+float temp(float f)
+{
+   return 5.0/9*(f-32)
+ }
+  void main()
+{
+   float num;
+   cout<<"input the number of temperature";
+   cin>>num;
+   cout<<"c="<<temp(num)<<endl;
+ }
